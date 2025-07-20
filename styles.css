@@ -1,1 +1,44 @@
+/* يمكن إضافة تخصيصات إضافية هنا */
+body {
+    font-family: 'Tajawal', sans-serif;
+}
 
+/* تخصيصات للشريط الجانبي */
+aside nav a {
+    transition: background-color 0.3s ease;
+}
+
+/* تخصيصات للجداول */
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    text-align: right;
+    padding: 0.75rem;
+}
+
+th {
+    background-color: #f7fafc;
+    font-weight: 600;
+}
+
+/* تخصيصات للأزرار */
+button {
+    transition: background-color 0.3s ease;
+}
+
+/* تخصيصات للأشكال */
+input, select, textarea {
+    border: 1px solid #e2e8f0;
+    border-radius: 0.375rem;
+    padding: 0.5rem 0.75rem;
+    width: 100%;
+}
+
+input:focus, select:focus, textarea:focus {
+    outline: none;
+    border-color: #4299e1;
+    box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.2);
+}
